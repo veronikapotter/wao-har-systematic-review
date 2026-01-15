@@ -23,11 +23,11 @@ Run the specified cells in the notebooks in the following order:
 1. `./encoding.ipynb`
 1. `./inference.ipynb`
 
-We used Python v3.13.5 and package requirements are listed in `./requirements.txt`.
+We used Python v3.13.5 and the package requirements are listed in `./requirements.txt`.
 
 **NOTE**: The code provided in this repository will not run in its entirety without downloading the model weigths `/Model/ResNet_best.pth` (for the ASTRI model) and `/Model/ResNet-ADL.pth` (for the ADL model) from the original ([GitHub Repo](https://github.com/lulujianjie/robust-single-accelerometer-based-activity-recognition-using-modified-recurrence-plot)).
 
-**NOTE**: The encodings are *large*. As such, we've stored ours [externally for download](anonymized). To run the `./inference.ipynb` code either run `data_seg.ipynb` and `encoding.ipynb` or downloaded, de-compressed, and place the pre-computed encodings in the `./encodings/` subfolder. 
+**NOTE**: The encodings, raw data, and segments are *large*. As such, we've stored ours [externally for download]() (currently anonymized). To run the `./inference.ipynb` code either run `data_seg.ipynb` and `encoding.ipynb` or download, decompress, and place the pre-computed encodings in the `./encodings/` subfolder. 
 
 **NOTE**: To make the figures shown in Fig 5 and 6, see code in the `/figs/` folder. 
 
