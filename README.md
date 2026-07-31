@@ -5,19 +5,17 @@ Wrist-Accelerometer-Only Human Activity Recognition." If you use our data or the
 
 ## Repository Structure 
 
-`/evaluating_model_usability/`: folder containing more information on evaluating open-weight model usability (Sec. 6.1.2) and code we modified to generate the inferences depicted in Fig. 5 and 6.  
-
 `/figs/`: folder containing larger copies of all the figures in our paper as well as the code and data used to generate these figures. 
 
 `/protocols/`: folder containing copies of our protocols for screening and data extraction. 
 
-`data.xlsx`: Excel sheet containing the data we extracted from each article included in our review. 
+`all_data.xlsx`: Excel sheet containing the data we extracted from each article included in our review. 
 
 `preprint.pdf`: A PDF copy of our paper as a preprint.  
 
 `PRISMA_2020_checklist.pdf`: Our completed PRISMA 2020 checklist for this review.
 
-`screening_results.xlsx`: Excel sheet containing the results of our intitial search and screening process.
+`all_screening_results.xlsx`: Excel sheet containing the results of our intitial search and screening process.
 
 ## Citation 
 
